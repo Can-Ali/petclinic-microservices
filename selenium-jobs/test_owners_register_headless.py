@@ -43,7 +43,7 @@ sleep(1)
 fn_field.send_keys(Keys.ENTER)
 sleep(1)
 # Wait 2 second to get updated Owner List
-sleep(2)
+sleep(10)
 # Verify that new user is added to Owner List
 if fn in driver.page_source:
     print(fn, 'is added and found in the Owners Table')
